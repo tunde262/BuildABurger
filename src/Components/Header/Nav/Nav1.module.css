@@ -1,0 +1,27 @@
+.Nav1{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+}
+
+.Nav2{
+    height: 50%;
+    width: 100%;
+    background-color: orange;
+    list-style-type: none;
+}
+
+.Nav2 *{
+    margin: 10px;
+}
+
+.Left{
+    padding-left: 30px;
+    float: left;
+}
+
+.Right{
+    display: flex;
+    padding-right: 30px;
+    float: right;
+}
